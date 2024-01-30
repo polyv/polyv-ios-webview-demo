@@ -1,0 +1,16 @@
+PODS:
+  - PLVWebViewSDK (3.0.0)
+
+DEPENDENCIES:
+  - PLVWebViewSDK (~> 3.0.0)
+
+SPEC REPOS:
+  https://gitee.com/polyv_ef/plvspecs.git:
+    - PLVWebViewSDK
+
+SPEC CHECKSUMS:
+  PLVWebViewSDK: 4e55a803bdd2bcb73ed99b228b8d467c1b7c52ea
+
+PODFILE CHECKSUM: a1e271bf1e9784bdb1aae08d59c3f52af9f3ffe6
+
+COCOAPODS: 1.11.3
