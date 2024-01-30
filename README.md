@@ -44,7 +44,7 @@ Demo [下载链接](https://www.pgyer.com/OKxPgY) 密码：polyv（如因证书�
 
 ### 4.2 [高级功能](./高级功能.md)
 
-### 4.3 [Q & A](./Q & A.md)
+### 4.3 [Q & A](https://github.com/polyv/polyv-ios-webview-demo/blob/master/Q%20%26%20A.md)
 
 
 
