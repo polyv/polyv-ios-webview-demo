@@ -14,13 +14,7 @@
 - 支持视频全屏播放
 - 支持系统小窗播放
 - 支持后台自动开启系统小窗
-
-
-
-本项目的架构图如下：
-![iOS PLVWebViewSDK 架构图](https://polyv-repo.oss-cn-shenzhen.aliyuncs.com/ios/documents/PLVWebViewSDK/resource/iOS%20PLVWebViewSDK%20%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
-
-
+  
 
 ## 2 环境要求
 
@@ -44,7 +38,7 @@ Demo [下载链接](https://www.pgyer.com/OKxPgY) 密码：polyv（如因证书�
 
 ### 4.2 [高级功能](./高级功能.md)
 
-### 4.3 [Q & A](./Q & A.md)
+### 4.3 [Q & A](https://github.com/polyv/polyv-ios-webview-demo/blob/master/Q%20%26%20A.md)
 
 
 
