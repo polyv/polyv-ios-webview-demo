@@ -1,5 +1,5 @@
 //
-//  PLVWebViewDemoViewController.h
+//  PLVWebViewSingleDemoViewController.h
 //  PLVWebViewDemo
 //
 //  Created by Sakya on 2023/11/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PLVWebViewDemoViewController : PLVWebViewBaseViewController
+@interface PLVWebViewSingleDemoViewController : PLVWebViewSingleViewController
 
 @end
 

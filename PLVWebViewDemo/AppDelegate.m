@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <PLVWebViewSDK/PLVWebViewSDK.h>
 
 @interface AppDelegate ()
 
@@ -44,6 +45,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    // 观看页支持横竖屏旋转，可以根据项目自行适配
+    if ([[PLVWVFdUtil getCurrentViewController] isKindOfClass:NSClassFromString(@"PLVWebViewSingleDemoViewController")] ||
+        [[PLVWVFdUtil getCurrentViewController] isKindOfClass:NSClassFromString(@"PLVWebViewFeedDemoViewController")]) {
+        return UIInterfaceOrientationMaskPortrait |
+        UIInterfaceOrientationMaskLandscapeRight |
+        UIInterfaceOrientationMaskLandscapeLeft;
+    }
+    
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 @end

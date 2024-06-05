@@ -1,18 +1,18 @@
 //
-//  PLVWebViewDemoViewController.m
+//  PLVWebViewSingleDemoViewController.m
 //  PLVWebViewDemo
 //
 //  Created by Sakya on 2023/11/28.
 //  Copyright © 2023 easefun. All rights reserved.
 //
 
-#import "PLVWebViewDemoViewController.h"
+#import "PLVWebViewSingleDemoViewController.h"
 
-@interface PLVWebViewDemoViewController ()
+@interface PLVWebViewSingleDemoViewController ()
 
 @end
 
-@implementation PLVWebViewDemoViewController
+@implementation PLVWebViewSingleDemoViewController
 
 #pragma mark - [ Override ]
 

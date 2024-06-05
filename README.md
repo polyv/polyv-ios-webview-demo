@@ -14,7 +14,10 @@
 - 支持视频全屏播放
 - 支持系统小窗播放
 - 支持后台自动开启系统小窗
-  
+- 支持WebView Feed流播放
+
+
+
 
 ## 2 环境要求
 
@@ -38,7 +41,7 @@ Demo [下载链接](https://www.pgyer.com/OKxPgY) 密码：polyv（如因证书�
 
 ### 4.2 [高级功能](./高级功能.md)
 
-### 4.3 [Q & A](https://github.com/polyv/polyv-ios-webview-demo/blob/master/Q%20%26%20A.md)
+### 4.3 [Q & A](./Q & A.md)
 
 
 
@@ -48,6 +51,7 @@ Demo [下载链接](https://www.pgyer.com/OKxPgY) 密码：polyv（如因证书�
 
 | Demo 仓库 Tag | 依赖 SDK 版本 | API 文档                                                     |
 | ------------- | ------------- | ------------------------------------------------------------ |
+| 3.1.1         | 3.1.1         | [v3.1.1 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.1.1-20240605/index.html) |
 | 3.0.0         | 3.0.0         | [v3.0.0 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.0.0-20240130/index.html) |
 | 2.1.2         | 2.1.2         | [v2.1.2 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/2.1.2-20221209/index.html) |
 | 2.1.1         | 2.1.1         | [v2.1.1 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/2.1.1-20221010/index.html) |

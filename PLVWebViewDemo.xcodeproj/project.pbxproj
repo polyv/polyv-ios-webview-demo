@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		001490512837A068002BC0E7 /* PLVWebViewSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B521E828338F1600146FBD /* PLVWebViewSDK.framework */; };
 		125AA2C125B7BA4300AB6C0F /* PLVBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125AA2C025B7BA4300AB6C0F /* PLVBaseNavigationController.m */; };
-		364025A12B15CE13004B2749 /* PLVWebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364025A02B15CE13004B2749 /* PLVWebViewDemoViewController.m */; };
+		364025A12B15CE13004B2749 /* PLVWebViewSingleDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364025A02B15CE13004B2749 /* PLVWebViewSingleDemoViewController.m */; };
+		36FA88222B83347600772D2B /* PLVEnteranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA88212B83347600772D2B /* PLVEnteranceViewController.m */; };
+		36FA88252B8472BD00772D2B /* PLVWebViewFeedDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA88242B8472BD00772D2B /* PLVWebViewFeedDemoViewController.m */; };
 		525CE8B983C7BED2E9EDA101 /* Pods_PLVWebViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E2CCEB7684B0DB97D7E232 /* Pods_PLVWebViewDemo.framework */; };
 		6740F82F2092CE2D00615CF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740F82E2092CE2D00615CF0 /* AppDelegate.m */; };
 		6740F8322092CE2D00615CF0 /* PLVURLInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740F8312092CE2D00615CF0 /* PLVURLInputViewController.m */; };
@@ -24,8 +26,12 @@
 		125AA2BF25B7BA4300AB6C0F /* PLVBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVBaseNavigationController.h; sourceTree = "<group>"; };
 		125AA2C025B7BA4300AB6C0F /* PLVBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVBaseNavigationController.m; sourceTree = "<group>"; };
 		1CD6D46C8014F92AD5169D06 /* Pods-PLVWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLVWebViewDemo.release.xcconfig"; path = "Target Support Files/Pods-PLVWebViewDemo/Pods-PLVWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3640259F2B15CE13004B2749 /* PLVWebViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVWebViewDemoViewController.h; sourceTree = "<group>"; };
-		364025A02B15CE13004B2749 /* PLVWebViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVWebViewDemoViewController.m; sourceTree = "<group>"; };
+		3640259F2B15CE13004B2749 /* PLVWebViewSingleDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVWebViewSingleDemoViewController.h; sourceTree = "<group>"; };
+		364025A02B15CE13004B2749 /* PLVWebViewSingleDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVWebViewSingleDemoViewController.m; sourceTree = "<group>"; };
+		36FA88202B83347600772D2B /* PLVEnteranceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVEnteranceViewController.h; sourceTree = "<group>"; };
+		36FA88212B83347600772D2B /* PLVEnteranceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVEnteranceViewController.m; sourceTree = "<group>"; };
+		36FA88232B8472BD00772D2B /* PLVWebViewFeedDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVWebViewFeedDemoViewController.h; sourceTree = "<group>"; };
+		36FA88242B8472BD00772D2B /* PLVWebViewFeedDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVWebViewFeedDemoViewController.m; sourceTree = "<group>"; };
 		6740F82A2092CE2D00615CF0 /* PLVWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLVWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6740F82D2092CE2D00615CF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6740F82E2092CE2D00615CF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,10 +76,14 @@
 			children = (
 				125AA2BF25B7BA4300AB6C0F /* PLVBaseNavigationController.h */,
 				125AA2C025B7BA4300AB6C0F /* PLVBaseNavigationController.m */,
+				36FA88202B83347600772D2B /* PLVEnteranceViewController.h */,
+				36FA88212B83347600772D2B /* PLVEnteranceViewController.m */,
 				6740F8302092CE2D00615CF0 /* PLVURLInputViewController.h */,
 				6740F8312092CE2D00615CF0 /* PLVURLInputViewController.m */,
-				3640259F2B15CE13004B2749 /* PLVWebViewDemoViewController.h */,
-				364025A02B15CE13004B2749 /* PLVWebViewDemoViewController.m */,
+				3640259F2B15CE13004B2749 /* PLVWebViewSingleDemoViewController.h */,
+				364025A02B15CE13004B2749 /* PLVWebViewSingleDemoViewController.m */,
+				36FA88232B8472BD00772D2B /* PLVWebViewFeedDemoViewController.h */,
+				36FA88242B8472BD00772D2B /* PLVWebViewFeedDemoViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -136,6 +146,7 @@
 				6740F8262092CE2D00615CF0 /* Sources */,
 				6740F8272092CE2D00615CF0 /* Frameworks */,
 				6740F8282092CE2D00615CF0 /* Resources */,
+				D355532A4DA2492A65BFAABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +226,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D355532A4DA2492A65BFAABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PLVWebViewDemo/Pods-PLVWebViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PLVWebViewDemo/Pods-PLVWebViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -223,10 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				125AA2C125B7BA4300AB6C0F /* PLVBaseNavigationController.m in Sources */,
-				364025A12B15CE13004B2749 /* PLVWebViewDemoViewController.m in Sources */,
+				36FA88222B83347600772D2B /* PLVEnteranceViewController.m in Sources */,
+				364025A12B15CE13004B2749 /* PLVWebViewSingleDemoViewController.m in Sources */,
 				6740F8322092CE2D00615CF0 /* PLVURLInputViewController.m in Sources */,
 				6740F83D2092CE2D00615CF0 /* main.m in Sources */,
 				6740F82F2092CE2D00615CF0 /* AppDelegate.m in Sources */,
+				36FA88252B8472BD00772D2B /* PLVWebViewFeedDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,9 +401,9 @@
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/PLVWebViewDemo/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.plv.WebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -393,9 +424,9 @@
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = "$(SRCROOT)/PLVWebViewDemo/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.0.0;
+				MARKETING_VERSION = 3.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.plv.WebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

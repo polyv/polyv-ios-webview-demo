@@ -7,7 +7,7 @@
 //
 
 #import "PLVURLInputViewController.h"
-#import "PLVWebViewDemoViewController.h"
+#import "PLVWebViewSingleDemoViewController.h"
 #import <PLVWebViewSDK/PLVWebViewSDK.h>
 #import <AVFoundation/AVFoundation.h>
 
@@ -34,6 +34,9 @@ static NSString *kTestUrlString = @"";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 配置域名白名单
+    [[PLVUAConfigManager sharedManager] addHostWhitelist:@[@"demo.polyv.net"]];
+
     self.urlTextView.text = @"";
     self.uaTextView.text = [PLVUAConfigManager sharedManager].defaultUserAgent;
     
@@ -52,7 +55,7 @@ static NSString *kTestUrlString = @"";
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.navigationController.navigationBar.translucent = YES;
+
     [PLVFloatWindowManager sharedManager].supportedInterfaceOrientations = UIInterfaceOrientationMaskPortrait;
 }
 
@@ -74,7 +77,7 @@ static NSString *kTestUrlString = @"";
     config.userAgent = self.uaTextView.text;
     config.enableAutoFloatWindow = YES;
     
-    PLVWebViewDemoViewController *floatingWebVC = [[PLVWebViewDemoViewController alloc] initWithConfig:config];
+    PLVWebViewSingleDemoViewController *floatingWebVC = [[PLVWebViewSingleDemoViewController alloc] initWithConfig:config];
     [self.navigationController pushViewController:floatingWebVC animated:YES];
 }
 
