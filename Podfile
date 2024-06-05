@@ -5,10 +5,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target 'PLVWebViewDemo' do
-  
-  # Feed
-  pod 'MJRefresh', '~> 3.5.0'
-  
+    
   pod 'PLVWebViewSDK', '~> 3.1.1'
   
 #  包含系统画中画 -- 如果不使用系统小窗 则不需要下面配置
