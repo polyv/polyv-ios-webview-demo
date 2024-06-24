@@ -34,9 +34,6 @@ static NSString *kTestUrlString = @"";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 配置域名白名单
-    [[PLVUAConfigManager sharedManager] addHostWhitelist:@[@"demo.polyv.net"]];
-
     self.urlTextView.text = @"";
     self.uaTextView.text = [PLVUAConfigManager sharedManager].defaultUserAgent;
     
