@@ -9,10 +9,7 @@ target 'PLVWebViewDemo' do
   pod 'PLVWebViewSDK', '~> 3.2.0'
   
 #  包含系统画中画 -- 如果不使用系统小窗 则不需要下面配置
-#  pod 'PLVAliHttpDNS', '~>1.10.0'
-#  pod 'PLVFoundationSDK', '1.10.6', :subspecs => ['BaseUtils', 'NetworkUtils', 'ErrorCode', 'LogReporter', 'ConsoleLogger', 'Reachability', 'SafeModel', 'ProgressHUD']
-#  pod 'PLVBusinessSDK', '1.10.4', :subspecs => ['BaseBSH']
-#  pod 'PLVLiveScenesSDK', '1.10.6', :subspecs => ['Base', 'LogReporter', 'ConsoleLogger', 'ErrorManager', 'Network', 'Player', 'BasePlayer', 'LivePlayer', 'LivePlaybackPlayer', 'PictureInPicture']
+#  pod 'PLVLiveScenesWebViewPIPModule', '1.10.6'
   
 end 
 
