@@ -51,6 +51,7 @@ Demo [下载链接](https://www.pgyer.com/OKxPgY) 密码：polyv（如因证书�
 
 | Demo 仓库 Tag | 依赖 SDK 版本 | API 文档                                                     |
 | ------------- | ------------- | ------------------------------------------------------------ |
+| 3.2.3         | 3.2.3         | [v3.2.2 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.2.3-20250418/index.html) |
 | 3.2.2         | 3.2.2         | [v3.2.2 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.2.2-20250111/index.html) |
 | 3.2.1         | 3.2.1         | [v3.2.1 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.2.1-20241216/index.html) |
 | 3.2.0         | 3.2.0         | [v3.2.0 API](https://repo.polyv.net/ios/documents/PLVWebViewSDK/3.2.0-20240624/index.html) |
