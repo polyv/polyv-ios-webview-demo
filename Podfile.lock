@@ -1,23 +1,22 @@
 PODS:
   - MJRefresh (3.5.0)
-  - PLVWebViewSDK (3.2.0):
-    - PLVWebViewSDK/Core (= 3.2.0)
-  - PLVWebViewSDK/Core (3.2.0):
+  - PLVWebViewSDK (3.2.4):
+    - PLVWebViewSDK/Core (= 3.2.4)
+  - PLVWebViewSDK/Core (3.2.4):
     - MJRefresh (~> 3.5.0)
 
 DEPENDENCIES:
-  - PLVWebViewSDK (~> 3.2.0)
+  - PLVWebViewSDK (~> 3.2.4)
 
 SPEC REPOS:
-  https://gitee.com/polyv_ef/plvspecs.git:
-    - PLVWebViewSDK
   https://github.com/CocoaPods/Specs.git:
     - MJRefresh
+    - PLVWebViewSDK
 
 SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  PLVWebViewSDK: e881183cc3411ab9d35e9055d89d17d6a5745ce8
+  PLVWebViewSDK: f7a8d42a12c8d41755a9ab93b51a1bcdb3d01447
 
-PODFILE CHECKSUM: df8d17b05ddb5bd5301855bb3c3b3af455aff936
+PODFILE CHECKSUM: 153bd856cfdabbf62d4c04a1fb136d89606f152b
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2

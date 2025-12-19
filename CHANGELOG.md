@@ -4,6 +4,12 @@
 
 > 该项目已发布在 CocoaPods 中，查看各版本可使用 `pod trunk info PLVWebViewSDK` 命令。
 
+## [3.2.4] - 2025-12-19
+
+### 优化：
+
+1. 【SDK】调整iOS10以上openUrl的调用方式，适配iOS26
+
 ## [3.2.3] - 2025-04-18
 
 ### 修复
